@@ -1,0 +1,25 @@
+{
+  "destination_root": "/media/pi/BackupFotos",
+  "folder_template": "{date}/{card}",
+  "scan_interval_seconds": 2,
+  "auto_start_copy": true,
+  "cards": [
+    {
+      "uuid": "1234-ABCD",
+      "name": "mini3"
+    },
+    {
+      "uuid": "2345-BCDE",
+      "name": "avata2"
+    },
+    {
+      "uuid": "",
+      "label": "INSTA360",
+      "name": "insta360"
+    },
+    {
+      "uuid": "4567-DEFA",
+      "name": "osmo4"
+    }
+  ]
+}
