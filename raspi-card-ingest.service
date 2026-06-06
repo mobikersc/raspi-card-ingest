@@ -1,0 +1,13 @@
+[Unit]
+Description=Raspi Card Ingest GUI
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/raspi-card-ingest/start-card-ingest.sh
+WorkingDirectory=%h/raspi-card-ingest
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target
