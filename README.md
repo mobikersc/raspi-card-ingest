@@ -115,7 +115,7 @@ chmod +x install.sh
 Edite a configuracao:
 
 ```bash
-nano ~/.config/raspi-card-ingest/config.json
+vim ~/.config/raspi-card-ingest/config.json
 ```
 
 Ative o app ao iniciar a sessao:
