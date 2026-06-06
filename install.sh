@@ -12,6 +12,8 @@ if [ ! -f "$CONFIG_DIR/config.json" ]; then
   cp "$APP_DIR/config.example.json" "$CONFIG_DIR/config.json"
 fi
 
+chmod +x "$APP_DIR/start-card-ingest.sh"
+
 for command in python3 rsync mount umount xset xinput; do
   if ! command -v "$command" >/dev/null 2>&1; then
     echo "$command nao encontrado. Instale com: sudo apt install python3 python3-tk rsync x11-xserver-utils xinput"
